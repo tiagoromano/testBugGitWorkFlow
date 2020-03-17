@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" bpmnAble="false" formTarget="" resourceType="JAVA" ruleDescription="Bloco" ruleName="Bloco" ruleSynchronous="false" ruleTimeout="" ruleType="I" soap="false">
+  <metadata scale="1" scrollx="451.00000000000017" scrolly="-83.29999999999993" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-367" y="188">
+    <mutation>
+      <arg name="valor"/>
+      <arg name="valor2"/>
+    </mutation>
+    <field name="NAME">Executar</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <statement name="STACK">
+      <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Ym/9pxEq$yNOfVh#pfYV" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+        <field name="VAR">item</field>
+        <value name="VALUE">
+          <block colour="#0e9a6c" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="t5jV%$-Ny*yuGpyDFCd1" multilayer="false" namespace="cronapi.conversion.Operations.toBoolean" origintype="procedures_callreturn" output="true" returntype="ObjectType.BOOLEAN" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EPara%20l%C3%B3gico%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20converter%20para%20l%C3%B3gico%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Conte%C3%BAdo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20L%C3%B3gico%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.conversion.Operations.toBoolean%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.conversion.Operations.toBoolean%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+            <mutation name="{{cronapi.conversion.Operations.toBoolean}}" return-raw-type="Var">
+              <arg cronapi-raw-type="Var" cronapi-type="ObjectType.STRING" name="Conteúdo"/>
+            </mutation>
+            <value name="ARG0">
+              <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="+,$zfs5(kie9EJ:Y~I]*" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT"/>
+              </shadow>
+              <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="i=,?h{M-wJ]zUH)+Cahg" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                <field name="VAR">valor2</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#5b80a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="|EY/X^m!yA~P)Y:%lbce" origintype="logic_null" output="true" tooltip="Retorna nulo." type="logic_null" x="53" y="248"/>
+</blockly>
